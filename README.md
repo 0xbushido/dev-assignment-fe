@@ -27,7 +27,7 @@ Here are the details for each chart and the tab they should be a part of:
 - This is what we expect the chart to resemble:
 - ![image](https://github.com/user-attachments/assets/207bb158-1909-4124-96fa-14b699cc3e0e)
 
-### 2) Chart 2: `Historical Price & Volume Chart` - Line Chart
+### 2) Chart 2: `Total & Circ Supply Chart` - Line Chart
 - You will need to add a toggle button to allow users to toggle between All Time & 30D time frames and see the 30D and All Time charts.
 - Y axis will be the supply amount and X axis will be the dates.
 - Endpoint is: `https://morpheus-ai-metrics-a9febnfedac6a6fx.centralus-01.azurewebsites.net/total_and_circ_supply`
@@ -43,7 +43,7 @@ Here are the details for each chart and the tab they should be a part of:
 
 
 ### 2) Chart 2: `Power Multiplier Distribution For Stakers` - Donut Chart
-- Add a detailed legend which should be clickable
+- Only create for the combined option and Add a detailed legend which should be clickable
 - When a legend icon is clicked, it should highlight the respective sector while greying out the rest of the sectors.
 - Endpoint is: `https://morpheus-ai-metrics-a9febnfedac6a6fx.centralus-01.azurewebsites.net/get_stake_info` under `power_multiplier` key
 - This is what we expect the chart to resemble:
